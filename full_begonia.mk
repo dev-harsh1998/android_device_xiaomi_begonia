@@ -13,3 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+# Device identifiers. 
+PRODUCT_DEVICE := begonia
+PRODUCT_NAME   := full_begonia
+PRODUCT_BRAND  := Xiaomi
+PRODUCT_MODEL  := Redmi Note 8 Pro
+PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
