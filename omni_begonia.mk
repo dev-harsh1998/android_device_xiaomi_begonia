@@ -26,7 +26,7 @@ PRODUCT_NAME := omni_begonia
 
 # Device identifiers. 
 PRODUCT_DEVICE := begonia
-PRODUCT_BRAND  := Xiaomi
+PRODUCT_BRAND  := Redmi
 PRODUCT_MODEL  := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
