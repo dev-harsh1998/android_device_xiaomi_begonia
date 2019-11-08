@@ -16,9 +16,17 @@
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
 
-# Inherit rest from full_begonia
-$(call inherit-product, device/xiaomi/begonia/full_begonia.mk)
+# Release Name
+PRODUCT_RELEASE_NAME := begonia
 
 # Omni's Product identifier
 PRODUCT_NAME := omni_begonia
+
+# Device identifiers. 
+PRODUCT_DEVICE := begonia
+PRODUCT_BRAND  := Xiaomi
+PRODUCT_MODEL  := Redmi Note 8 Pro
+PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
